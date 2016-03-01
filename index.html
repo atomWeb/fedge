@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>front edge</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Hola mundo con tecnolgías tendencia en 2016 ">
+    <meta name="keywords" content="ES6, JSPM, AngularJS1.5 , Material Design">
+    <meta name="author" content="albertobasalo@agorabinaria.com">
+    <!--<script src="jspm_packages/system.js"></script>    
+    <script src="config.js"></script>
+    <script>
+        System.import('main.js');
+    </script>-->
+    <!--<link href="jspm_packages/npm/angular-material@1.0.6/angular-material.css" rel="stylesheet" />-->
+    <script src="app.js"></script>    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+       .material-icons.md-48 { font-size: 48px; color: #FB8C00;}
+    </style>
+</head>
+
+<body layout="column" layout-fill>
+    <cpg-toolbar></cpg-toolbar>
+    <md-content layout="row" flex>
+        <nav><sidenav></sidenav></nav>        
+        <section layout="column" flex ui-view>
+            
+        </section>
+    </md-content>
+    <fab></fab>
+</body>
+</html>

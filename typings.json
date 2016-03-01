@@ -1,0 +1,12 @@
+{
+  "ambientDependencies": {
+    "angular": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular.d.ts#17ef40452039d19e06dc2a3815ea898c505860fa",
+    "angular-material": "github:DefinitelyTyped/DefinitelyTyped/angular-material/angular-material.d.ts#2d0a1b1502610025bd55ce8eaa48069da8a16c82",
+    "angular-ui-router": "github:DefinitelyTyped/DefinitelyTyped/angular-ui-router/angular-ui-router.d.ts#655f8c1bf3c71b0e1ba415b36309604f79326ac8",
+    "mongoose": "github:DefinitelyTyped/DefinitelyTyped/mongoose/mongoose.d.ts#97ec10cb6c917dce7668f3833679506162c0f5c4",
+    "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#aee0039a2d6686ec78352125010ebb38a7a7d743"
+  },
+  "dependencies": {
+    "debug": "github:typed-typings/npm-debug#0e398cb21de268744dd048a11461be5c13230bad"
+  }
+}
